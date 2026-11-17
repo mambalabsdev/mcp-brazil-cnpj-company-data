@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-brazil-cnpj-company-data": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-brazil-cnpj-company-data"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

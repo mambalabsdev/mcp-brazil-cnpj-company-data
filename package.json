@@ -1,0 +1,55 @@
+{
+  "name": "@mambalabsdev/mcp-brazil-cnpj-company-data",
+  "version": "1.0.0",
+  "description": "MCP server for Brazil CNPJ Company Data: Brazilian company and partner data from the Receita Federal open data.",
+  "type": "module",
+  "bin": {
+    "mcp-brazil-cnpj-company-data": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cnpj",
+    "brazil",
+    "receita-federal",
+    "company-data",
+    "kyb",
+    "qsa",
+    "cnae",
+    "scraper",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/brazil-cnpj-company-data",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-brazil-cnpj-company-data"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-brazil-cnpj-company-data"
+}
