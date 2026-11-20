@@ -1,6 +1,6 @@
 # Brazil CNPJ Company Data MCP Server
 
-[![npm version](https://img.shields.io/npm/v/@mambalabsdev/mcp-brazil-cnpj-company-data)](https://www.npmjs.com/package/@mambalabsdev/mcp-brazil-cnpj-company-data) [![license](https://img.shields.io/github/license/mambalabsdev/mcp-brazil-cnpj-company-data)](https://github.com/mambalabsdev/mcp-brazil-cnpj-company-data/blob/main/LICENSE)
+[![MCP Registry](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry.modelcontextprotocol.io%2Fv0%2Fservers%3Fsearch%3Dcom.mambabuilt%252Fmcp-brazil-cnpj-company-data%26limit%3D1&query=%24.servers%5B0%5D._meta%5B%22io.modelcontextprotocol.registry%2Fofficial%22%5D.status&label=mcp%20registry&color=blue)](https://registry.modelcontextprotocol.io/v0/servers?search=com.mambabuilt/mcp-brazil-cnpj-company-data&limit=1) [![npm version](https://img.shields.io/npm/v/@mambalabsdev/mcp-brazil-cnpj-company-data)](https://www.npmjs.com/package/@mambalabsdev/mcp-brazil-cnpj-company-data) [![npm downloads](https://img.shields.io/npm/dm/@mambalabsdev/mcp-brazil-cnpj-company-data)](https://www.npmjs.com/package/@mambalabsdev/mcp-brazil-cnpj-company-data) [![license](https://img.shields.io/github/license/mambalabsdev/mcp-brazil-cnpj-company-data)](https://github.com/mambalabsdev/mcp-brazil-cnpj-company-data/blob/main/LICENSE)
 
 An MCP server for the Mamba Labs Brazil CNPJ Company Data actor on Apify. Brazil CNPJ registry data as rows.
 
