@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-brazil-cnpj-company-data",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server for Brazil CNPJ Company Data: Brazilian company and partner data from the Receita Federal open data.",
   "author": {
     "name": "Mamba Labs"
